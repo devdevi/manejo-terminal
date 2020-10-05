@@ -365,6 +365,7 @@ Empaquetar y Comprimir:
 Descomprimir:
 ```tar xzf archivo.tar.gz```
 
+<<<<<<< HEAD
 ### Tareas Programadas
 Para realizar tareas programadas, se puede hacer de dos formas:
 
@@ -376,3 +377,103 @@ cron: el comando cron permite a demás de programar tareas, también que estás 
 para modificar el archivo mencionado, se ingresa: crontab -e. al principio saldrá un texto con instrucciones; las tareas a programar deben ir al final de este texto.
 Las tareas a realizar se deben ingresar de la siguiente manera:
 Minuto Hora DiaDelMes Mes DiaDeLaSemana Usuario Comando
+=======
+### Herramientas de búsqueda de archivos
+Algunos apuntes de la clase:
+
+LOCATE: ```locate```
+Busqueda en todo el sistema de archivos
+Ojo: Para ello debe tener la BD actualizada
+tienes que usar: sudo updatedb
+*se demorara bastante la primera vez, ojo con ese detalle.
+
+Ejemplo: locate prueba.txt
+locate -c <archivo> [Mostrara el conteo de los archivos]
+
+WHEREIS: ```whereis```
+Para buscar archivos binarios (Osea Comandos)
+
+Ej: whereis echo
+echo: /bin/echo /usr/share/man/man1/echo.1.gz
+
+/bin/echo -> la primera ruta encontrada
+/usr/share/man/man1/echo.1.gz ->la segunda ruta encontrada
+
+FIND:```find```
+Busqueda compleja según una serie de criterios
+
+find /ruta -name “archivo*”
+[buscara todos los archivos que comiencen con el nombre archivo]
+
+find . -user <nombreusuario> -perm XXX
+[. el punto es directorio actual]
+[-user nombre del usuario a que pertenece]
+[-perm = Permisos XXX puede ser 777 644 etc]
+
+find . -name <archivo> -delete
+[. el punto es directorio actual]
+[-delete ->Eliminara el archivo encontrado]
+
+#### Herramientas para interactuar a través de HTTP
+Intercambios de texto
+>curl: Pedidos crudos
+>wget: realiza descargas desde servidores http
+
+#### Acceso seguro a otras computadoras
+```ssh```: Secure Shell
+
+##### Envío de datos seguro
+ssh: Secure shell (Terminal segura),Con este comando ingresamos a un servidor de manera segura.
+ejemplo: ``` ssh leeway -prod```
+.
+```mail```: Nos permite enviar un email desde el servidor. Para que este comando funcione hay que tener algunas cosas configuradas
+.
+Ejemplo: echo “Probando” | mail -s(-s: es el asunto del correo) “Probando para platzi” mchojrin1@hotmail.com"
+
+#### Qué son y cómo se utilizan las variables de entorno
+
+Variable de entorno a la que todo el sistema tiene acceso
+
+```
+
+echo $PATH
+```
+Con el ```$```, me muestra el contenido de la variable, y esto sucede con  todas las variables de entorno, todos los procesos tienen acceso a estas variables
+##### Asignación globales
+```export MY_VAR=userVisidevi```Esto quedara asi durante la sesion,
+
+#### Variables de Entorno
+Es un definición global a la que todos los procesos tienen acceso. esta toma mas información de lo que se este typeando.
+Ejemplo: ```echo $PATH``` = se encuentran todos los comandos ejecutables
+.
+#### Asignación de las variables de entorno
+```export:``` Este comando se utiliza para asignar a toda la sesión
+Ejemplo: export MI_VAR = mauro, si luego escribimos echo $MI_VAR se mostrará mauro en la terminal. (Este permanecerá miestras dure mi sesión)
+.
+var: Este comando solo asigna el valor para el proximo proceso que se va a ejecutar. este no es muy usual.
+Ejemplo: MI_VAR=/home php env.php
+
+#### Las funciones Bash pueden:
+
+-Eliminar tareas repetitivas
+
+-Ahorrar tiempo
+
+-Proporciona una secuencia de actividades bien estructurada, modular y formateada
+
+-Con scripts, podemos proporcionar valores dinámicos a comandos usando argumentos de línea de comando
+
+-Puede simplificar comandos complejos en una sola unidad en ejecución
+
+-Una vez creado, se puede ejecutar cualquier cantidad de veces por cualquier persona. Construye una vez y ejecuta muchas veces.
+
+-Los flujos lógicos se pueden construir utilizando funciones bash
+
+-Las funciones Bash se pueden ejecutar al inicio del servidor o agregando un cron job programado
+
+-Los comandos pueden ser depurados
+
+-Puede tener comandos de shell interactivos
+
+Bash es definitivamente una gran herramienta para facilitar tu trabajo y mejorar tus proyectos.
+>>>>>>> 3e3adac503df90beb5fd878281a2a6ab337cf6e4

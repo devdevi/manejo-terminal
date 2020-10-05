@@ -1,0 +1,66 @@
+    1  npm test
+    2  npm test
+    3  npm test
+    4  npm test
+    5  npm i @babel/runtime -D
+    6  npm i @babel/runtime -D
+    7  npm test
+    8  npm test
+    9  npm test
+   10  rm -rf node_modules && npm cache clean --force && npm install
+   11  npm i
+   12  exit
+   13  npm test
+   14  modyo-cli widget start
+   15  l
+   16  ls
+   17  cd develop/
+   18  git clone  https://github.com/visidevi/next_js.git
+   19  git clone  https://github.com/visidevi/next_js.git
+   20  git clone https://github.com/visidevi/next_js.git
+   21  cd ..
+   22  cd Documents/
+   23  vue create loader
+   24  vue create loader
+   25  echp "hola"
+   26  ech0 "hola"
+   27  echo "hola"
+   28  ls
+   29   ls -l
+   30   ls -lh
+   31  whereis echo
+   32  echo $PATH
+   33  echo $PATH -l
+   34  export MY_VAR=visidevi
+   35  echo &MY_VAR
+   36  ls
+   37  pwd
+   38  ls
+   39  vim trysh.sh
+   40* 
+   41  ./trysh.sh 
+   42  touch example.txt 
+   43* 
+   44  ./trysh.sh 
+   45  vim trysh.sh
+   46  ./trysh.sh 
+   47  ./trysh.sh 
+   48  ./trysh.sh 
+   49  ./trysh.sh 
+   50  ls
+   51  ls platzi/ -l
+   52  git add .
+   53  git rm --cached terminal/
+   54  git rm -f --cached terminal/
+   55  git add .
+   56  ls
+   57  cd terminal/
+   58  cd ..
+   59  ls
+   60  cp platzi/ terminal/
+   61  cp platzi/ `pwd`/terminal
+   62  ls
+   63  source .bashrc
+   64  date
+   65  at now *2 minutes
+   66  history >> historial.txt
