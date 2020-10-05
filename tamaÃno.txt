@@ -1,0 +1,13 @@
+total 31K
+-rw-r--r-- 1 vchaves 1049089  12K Oct  1 17:28 README.md
+-rw-r--r-- 1 vchaves 1049089  350 Sep 30 19:57 archivos.txt
+-rw-r--r-- 1 vchaves 1049089  238 Sep 30 20:15 desafio.py
+-rw-r--r-- 1 vchaves 1049089   76 Sep 30 20:13 headDesafio.py
+-rw-r--r-- 1 vchaves 1049089   25 Sep 30 12:15 nuevo.txt
+-rw-r--r-- 1 vchaves 1049089  304 Sep 30 20:34 ps.text
+-rw-r--r-- 1 vchaves 1049089  921 Sep 30 20:38 ps.txt
+-rw-r--r-- 1 vchaves 1049089    0 Sep 29 23:22 tables.txt
+-rw-r--r-- 1 vchaves 1049089    0 Oct  1 17:28 tamaÃno.txt
+-rw-r--r-- 1 vchaves 1049089    5 Oct  1 11:21 test.py
+-rw-r--r-- 1 vchaves 1049089  326 Sep 30 12:27 text.txt
+-rw-r--r-- 1 vchaves 1049089 6.0K Sep 30 20:37 top.txt

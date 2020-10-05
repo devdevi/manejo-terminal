@@ -1,0 +1,18 @@
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     1461       1    1461       7884  cons0    1150210 21:54:06 /usr/bin/bash
+     1889    1860    1889      18612  cons1    1150210 20:35:02 /usr/bin/ps
+     1860       1    1860      11520  cons1    1150210 20:30:42 /usr/bin/bash
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     1893    1860    1893       3400  cons1    1150210 20:35:11 /usr/bin/ps
+     1461       1    1461       7884  cons0    1150210 21:54:06 /usr/bin/bash
+     1860       1    1860      11520  cons1    1150210 20:30:42 /usr/bin/bash
+    1 ?        Ssl    0:00 /init
+   33 tty1     Ss     0:00 /init
+  144 tty1     S      0:00 grep --color=auto init
+Wed Sep 30 20:38:38 -03 2020
+  PID TTY          TIME CMD
+   34 tty1     00:00:00 bash
+  150 tty1     00:00:00 top
+  151 tty1     00:00:00 top
+  152 tty1     00:00:00 top
+  156 tty1     00:00:00 ps

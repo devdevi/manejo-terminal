@@ -1,0 +1,13 @@
+Hola, Estoy editando este archivo en VIM
+### Estoy en modo edición
+volver a editar con vim
+``:x guardar y salir de una sola vez``
+
+Ah... esto es otra cosa;
+Ah... esto es otra cosa;
+
+Ah... esto es otra cosa;
+
+Ah... esto es otra cosa;
+
+¡Hola, NOMBRE_USUARIO! Felicitaciones por completar tu desafío con PUNTOS_USUARIO puntos.
