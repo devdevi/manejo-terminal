@@ -1,0 +1,11 @@
+README.md
+archivos.txt
+nuevo.txt
+tables.txt
+text.txt
+total 15
+-rw-r--r-- 1 vchaves 1049089 8814 Sep 30 19:57 README.md
+-rw-r--r-- 1 vchaves 1049089   53 Sep 30 19:56 archivos.txt
+-rw-r--r-- 1 vchaves 1049089   25 Sep 30 12:15 nuevo.txt
+-rw-r--r-- 1 vchaves 1049089    0 Sep 29 23:22 tables.txt
+-rw-r--r-- 1 vchaves 1049089  326 Sep 30 12:27 text.txt
